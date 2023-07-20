@@ -3,7 +3,7 @@ from faker import Faker
 
 host = "localhost"
 usuario = "root"
-senha = "Z3R0l@ctose"
+senha = "admin"
 banco_de_dados = "bancoteste"
 
 conexao = mysql.connector.connect(
