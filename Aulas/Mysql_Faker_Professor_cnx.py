@@ -37,7 +37,7 @@ for i in range (1,10001):
     cidade_natal = fake.city()
     estado = fake.estado_sigla()
     renda_percapta = fake.pyfloat(left_digits = 4, right_digits = 2, positive = True)
-    formacao = fake.text(max_nb_chars = 255)
+    formacao = fake.text(max_nb_chars = 25)
     
     dados_professor.append((nome,data_nascimento,cidade_natal,estado,renda_percapta,formacao))
     
